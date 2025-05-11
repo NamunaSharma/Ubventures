@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UB Ventures Footer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+
 <footer>
   <div class="footer-container">
     <div class="footer-section">
-      <h2>Contact Us</h2>
-      <div>
-        <h3>General Inquiries:</h3>
-        <p><a href="mailto:info@ubventuresllc.com">info@ubventuresllc.com</a></p>
-      </div>
-      <div>
-        <h3>Investment Inquiries:</h3>
-        <p><a href="mailto:pitch@ubventuresllc.com">pitch@ubventuresllc.com</a></p>
-      </div>
+      <img src="images/Logo.png" alt="Logo image" width="100" style="margin-bottom: 1rem;">
     </div>
 
     <div class="footer-section">
-      <h2>Our Office</h2>
+      <h4>Useful Links</h4>
+      <a href="index.php">Home</a>
+      <a href="InvestmentThesis.php">Investment Thesis</a>
+      <a href="PitchEttique.php">Pitch Etiquette</a>
+      <a href="NeedleinaHaystack.php">Needle in a Haystack</a>
+    </div>
+
+    <div class="footer-section">
+      <h4>Contact Us</h4>
+      <p>General Inquiries: <a href="mailto:info@ubventuresllc.com">info@ubventuresllc.com</a></p>
+      <p>Investment Inquiries: <a href="mailto:pitch@ubventuresllc.com">pitch@ubventuresllc.com</a></p>
+    </div>
+
+    <div class="footer-section">
+      <h4>Our Office</h4>
       <p>UB Ventures, LLC</p>
       <p>50 Milk Street</p>
       <p>Boston, MA, USA</p>
     </div>
 
     <div class="footer-section">
-      <h3>Connect With Us</h3>
-      <a href="https://www.linkedin.com/company/ubventuresllc" target="_blank" class="social-link">
-        <img src="images/linkedin-logo.png" alt="LinkedIn Logo" class="social-icon">
-      </a>
+      <h4>Social</h4>
+      <div class="social-media-icons">
+        <a href="https://www.linkedin.com/company/assabet-technologies-official/" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
     </div>
   </div>
 
   <div class="footer-bottom">
-    &copy; 2025 UB Ventures LLC - All Rights Reserved.
+    &copy; 2025 UB Ventures LLC – All Rights Reserved.
   </div>
 </footer>
 

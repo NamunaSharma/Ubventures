@@ -10,13 +10,19 @@
   <?php include 'includes/Navbar.php'; ?>
 
   <div class="headersection">
-    <div class="headerseaction_image">
-      <img src="images/Headerimage.jpg" alt="Headerimage">
-    </div>
-    <h1>Empowering Oncology-Focused Startups with Capital & Strategic Insight</h1>
+  <div class="headersection_image">
+    <img src="images/Headerimage.jpg" alt="Headerimage">
   </div>
+  <div class="header-content">
+    <h1>Empowering Oncology-Focused Startups with Capital & Strategic Insight</h1>
+    <div class="header-btn">
+    <a href="PitchEttique.php">
+      <button>Pitch Your Idea</button>
+      </a>
+    </div>
+  </div>
+</div>
 
- 
   <div class="Aboutus">
   <div class="Aboutus_image">
       <img src="images/aboutus.jpg" alt="AboutusImage">
@@ -79,7 +85,10 @@
     </div>
 
     <div class="btn-group">
+      <a href="PitchEttique.php">
       <button>Read More</button>
+      </a>
+  
     </div>
   </div>
 
@@ -89,25 +98,35 @@
 </div>
 
 <div class="BlogsSection">
-  <h2>Needle in a Haystack</h2>
+<h2 class="section-title">
+<span>Needle</span><br>in a Haystack
+  </h2>
+
   <div class="blogs-container">
     <div class="blog-item">
       <img src="images/blog1.jpg" alt="Blog 1" class="blog-image">
-      <p class="blog-date">April 22, 2025</p>
-      <h3 class="blog-title">Stay Hungry, Stay Foolish</h3>
+      <div class="blog-content">
+        <p class="blog-date">April 22, 2025</p>
+        <h3 class="blog-title">Stay Hungry, Stay Foolish</h3>
+      </div>
     </div>
     <div class="blog-item">
       <img src="images/blog2.jpg" alt="Blog 2" class="blog-image">
-      <p class="blog-date">April 15, 2025</p>
-      <h3 class="blog-title">Think Big, Act Smart</h3>
+      <div class="blog-content">
+        <p class="blog-date">April 15, 2025</p>
+        <h3 class="blog-title">Think Big, Act Smart</h3>
+      </div>
     </div>
     <div class="blog-item">
       <img src="images/blog3.jpg" alt="Blog 3" class="blog-image">
-      <p class="blog-date">April 8, 2025</p>
-      <h3 class="blog-title">Intro</h3>
+      <div class="blog-content">
+        <p class="blog-date">April 8, 2025</p>
+        <h3 class="blog-title">Intro</h3>
+      </div>
     </div>
   </div>
 </div>
+
 
 <?php include 'includes/Footer.php'; ?>
 </body>

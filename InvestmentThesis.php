@@ -10,7 +10,7 @@
 <?php include 'includes/navbar.php'; ?>
   <section class="investment-section">
     <div class="container">
-      <h1>Investment Thesis</h1>
+      <h1 style="color:#26b9cd">Investment Thesis</h1>
       <p class="intro">
       UB Ventures is more than a traditional venture fund. We strive to be a true partner rather than just a line item on the cap table by providing a real, tangible value add. Our disciplined investment approach is hence anchored by the following pillars:
 
@@ -19,43 +19,59 @@
 
       <div class="card-grid">
         <div class="card">
+        <div class="card-img-wrapper">
           <img src="images/Rectangle16.png" alt="Oncology-Focused">
+          <</div>
           <h4>Oncology-Focused</h4>
           <p>We invest in breakthrough innovations that address the most critical challenges in healthcare, with oncology at the heart of our approach.</p>
         </div>
         <div class="card">
+        <div class="card-img-wrapper">
           <img src="images/Sprout.png" alt="Pre-Seed/Early Seed Stage Investing">
+          </div>
           <h4>Pre-Seed/Early Seed Stage Investing</h4>
           <p>Our focus is on early-stage opportunities with the potential to rapidly evolve into market-leading ventures. We are usually the first check in most of our portfolio companies and we're proud of it. We believe in early conviction and hands-on support.</p>
         </div>
         <div class="card">
+        <div class="card-img-wrapper">
           <img src="images/Rectangle15.png" alt="Team, #1 Criteria">
+          </div>
           <h4>Team, #1 Criteria</h4>
           <p>Exceptional leadership is paramount; we prioritize founding teams that exhibit visionary leadership, operational excellence, and robust scientific acumen.</p>
         </div>
         <div class="card">
+        <div class="card-img-wrapper">
           <img src="images/Statistics.png" alt="Data Driven">
+          </div>
           <h4>Data Driven</h4>
           <p>Every investment decision is underpinned by rigorous data analysis and objective evaluation, ensuring that each opportunity is meticulously vetted.</p>
         </div>
         <div class="card">
+        <div class="card-img-wrapper">
           <img src="images/Agile.png" alt="Agile">
+          </div>
           <h4>Agile</h4>
           <p>As a rolling fund, our nimble approach enables us to adapt swiftly to market dynamics and capitalize on emerging opportunities.</p>
         </div>
         <div class="card">
+        <div class="card-img-wrapper">
           <img src="images/Geographical.png" alt="Geographic Focus">
+          </div>
           <h4>Geographic Focus</h4>
           <p>We exclusively invest in US-based companies, leveraging a market enriched by robust regulatory oversight, deep innovation networks, and dynamic healthcare ecosystems.</p>
         </div>
         <div class="card">
+        <div class="card-img-wrapper">
           <img src="images/Funding.png" alt="Platform Venture Investment Model">
+          </div>
           <h4>Platform Venture Investment Model</h4>
           <p>Beyond providing capital, we offer comprehensive strategic guidance, operational support, and access to an extensive network of industry experts and partners, cultivating an ecosystem designed to accelerate growth.</p>
         </div>
       </div>
     </div>
   </section>
+
+<?php include 'includes/Footer.php'; ?>
 
 </body>
 </html>

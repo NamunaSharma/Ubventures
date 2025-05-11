@@ -56,6 +56,6 @@
       </p>
     </div>
   </section>
-
+  <?php include 'includes/Footer.php'; ?>
 </body>
 </html>
