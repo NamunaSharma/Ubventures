@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Needle in a Haystack - UB Ventures</title>
   <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+
 </head>
 <body>
   <?php include 'includes/Navbar.php'; ?>
@@ -44,23 +46,29 @@
 
     <!-- RIGHT: Recent Posts -->
     <div class="photo-right">
-      <h2>Recents Posts</h2>
-
-      <div class="mini-post">
-        <img src="images/blog1.jpg" alt="Stay Hungry, Stay Foolish" />
-        <div class="mini-post-text">
-          <h4>Stay Hungry, Stay Foolish</h4>
-          <p class="meta">April 5, 2025</p>
-        </div>
-      </div>
-
+        <h2>Recents Posts</h2>
       <div class="mini-post">
         <img src="images/blog2.jpg" alt="Think Big, Act Smart" />
         <div class="mini-post-text">
-          <h4>Think Big, Act Smart</h4>
-          <p class="meta">March 16, 2025</p>
+          <a href="Thinkbigthinksmart.php" style="text-decoration: none;"><h4>Think Big, Act Smart</h4></a>
+          <p class="meta">April 15, 2025</p>
         </div>
       </div>
+      <div class="mini-post">
+        <img src="images/blog1.jpg" alt="Intro to Healthcare Startups" />
+        <div class="mini-post-text">
+          <a href="stayhungry.php" style="text-decoration: none;" ><h4>Stay Hungry, Stay Foolish</h4></a>
+          <p class="meta">April 22, 2025</p>
+        </div>
+      </div>
+      <div class="mini-post">
+        <img src="images/blog4.jpg" alt="Intro to Healthcare Startups" />
+        <div class="mini-post-text">
+          <a href="blog1.php" style="text-decoration: none;"><h4>The Smartest Guy in the Room Usually Loses</h4></a>
+          <p class="meta">May 17, 2025</p>
+        </div>
+      </div>
+      
     </div>
 
   </div>

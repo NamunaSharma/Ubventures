@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Stay Hungry, Stay Foolish</title>
   <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+
 </head>
 <body>
   <?php include 'includes/Navbar.php'; ?>
@@ -12,7 +14,6 @@
   <section class="hero">
     <div class="hero-text">
       <h1>"Stay Hungry, Stay Foolish"</h1>
-      <p>Inspired by Steve Jobs’ timeless Stanford commencement speech</p>
     </div>
   </section>
 
@@ -39,23 +40,30 @@
 
     <!-- RIGHT: Recent Posts -->
      
-    <div class="photo-right">
+   <div class="photo-right">
         <h2>Recents Posts</h2>
       <div class="mini-post">
         <img src="images/blog2.jpg" alt="Think Big, Act Smart" />
         <div class="mini-post-text">
-          <h4>Think Big, Act Smart</h4>
+          <a href="Thinkbigthinksmart.php" style="text-decoration: none;"><h4>Think Big, Act Smart</h4></a>
           <p class="meta">April 15, 2025</p>
         </div>
       </div>
-
       <div class="mini-post">
         <img src="images/blog3.jpg" alt="Intro to Healthcare Startups" />
         <div class="mini-post-text">
-          <h4>Intro to Healthcare Startups</h4>
-          <p class="meta">April 8, 2025</p>
+          <a href="needlepage.php" style="text-decoration: none;" ><h4>Intro</h4></a>
+          <p class="meta">Mar 1, 2025</p>
         </div>
       </div>
+      <div class="mini-post">
+        <img src="images/blog4.jpg" alt="Intro to Healthcare Startups" />
+        <div class="mini-post-text">
+          <a href="blog1.php" style="text-decoration: none;"><h4>The Smartest Guy in the Room Usually Loses</h4></a>
+          <p class="meta">May 17, 2025</p>
+        </div>
+      </div>
+      
     </div>
     
   </div>

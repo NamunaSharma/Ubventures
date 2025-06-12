@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>UB Ventures Footer</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-  <link rel="stylesheet" href="style.css"/>
+  <!-- <link rel="stylesheet" href="style.css"/> -->
 </head>
 <body>
 
@@ -31,15 +31,20 @@
 
     <div class="footer-section">
       <h4>Our Office</h4>
-      <p>UB Ventures, LLC</p>
-      <p>50 Milk Street</p>
-      <p>Boston, MA, USA</p>
+
+<a href="https://www.google.com/maps/place/50+Milk+St,+Boston,+MA+02110,+USA" target="_blank" style="text-decoration: none; color: inherit;">
+  <p>UB Ventures, LLC</p>
+  <p>50 Milk Street</p>
+  <p>Boston, MA, USA</p>
+</a>
+
+
     </div>
 
     <div class="footer-section">
       <h4>Social</h4>
       <div class="social-media-icons">
-        <a href="https://www.linkedin.com/company/assabet-technologies-official/" target="_blank">
+        <a href="https://www.linkedin.com/company/ubventuresllc" target="_blank">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </div>
